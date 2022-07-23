@@ -1,0 +1,142 @@
+*{
+    margin: 0%;
+    padding: 0%;
+   
+
+}
+
+.contenedor {
+    
+    display: flex;
+ padding: 300px;
+  justify-content: center;
+  justify-content: space-between;
+  
+}
+
+body {
+    background-color: white;
+}
+
+.box1 {
+    padding: 10px;
+    background-color: white;
+    border-top: 5px solid skyblue;
+    border-radius: 3px;
+    box-shadow: 10px 20px 20px 10px;
+    left:70px;
+    position: relative;
+  
+}
+
+
+.box2 {
+    padding: 10px;
+    background-color: white;
+    border-top: 5px solid red;
+    border-radius: 3px;
+    box-shadow: 10px 20px 20px 10px;
+    position: relative;
+    top: -100px;
+    left: 105px;    
+}    
+
+.box3 {
+    padding: 10px;
+    background-color: white;
+    border-top: 5px solid orange;
+    border-radius: 3px;
+    box-shadow: 10px 20px 20px 10px;
+    position: relative;
+    top: 120px;
+    right: 150px;
+   
+}
+
+.box4 {
+    padding: 10px;
+    background-color: white;
+    border-top: 5px solid rgb(16, 16, 212);
+    border-radius: 3px;
+    position: relative;  
+    box-shadow: 10px 20px 20px 10px; 
+    left: -99px;
+}
+
+img {
+    position: relative; 
+    left: 130px;
+
+}
+
+@media screen and (min-width:100px) and (max-width:1000px) {
+.contenedor, .box1, .box2, .box3, .box4 {  
+    padding: 10px;
+    background-color: white;
+    border-top: 5px solid rgb(16, 16, 212);
+    border-radius: 3px;
+    position: relative;  
+    box-shadow: 10px 20px 20px 10px; 
+    /*left: -99px;*/
+    display: flex;
+    flex-direction: column;
+}
+   
+img {
+    position: relative; 
+    left: 130px;
+
+}
+
+}
+
+
+    
+@media screen and (min-width:480px) and (max-width:780px) {
+
+    .contenedor, .box1, .box2, .box3, .box4 {  
+        padding: 10px;
+        background-color: white;
+        border-top: 5px solid rgb(16, 16, 212);
+        border-radius: 3px;
+        position: relative;  
+        box-shadow: 10px 20px 20px 10px; 
+        left: -99px;
+    }
+       
+    img {
+        position: relative; 
+        left: 130px;
+    
+    }
+
+
+
+
+}
+
+
+
+@media screen and (min-width:480px) and (max-width:780px) {
+
+    .contenedor, .box1, .box2, .box3, .box4 {  
+        padding: 10px;
+        background-color: white;
+        border-top: 5px solid rgb(16, 16, 212);
+        border-radius: 3px;
+        position: relative;  
+        box-shadow: 10px 20px 20px 10px; 
+        left: -99px;
+        flex-direction: column;
+    }
+       
+    img {
+        position: relative; 
+        left: 130px;
+    
+    }
+
+
+
+
+}
